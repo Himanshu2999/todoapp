@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eef2f7;
+  margin: 0;
+}
+
+/* Navbar */
+.nav {
+  background: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.tablek td{
+  width: 20%;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgrey;
+}
+/* Container */
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+/* Card */
+.cardk {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Input */
+input {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Buttons */
+button {
+  border: none;
+  border-radius: 6px;
+  padding: 5px 15px 5px 15px;
+
+}
+
+
+.complete { background: #28a745; color: white; }
+.pending{ background-color: #6c757d; color: white;}
+.edit { background: #007bff; color: white; }
+.delete { background: #dc3545; color: white; }
+.undo { background: #6c757d; color: white; }
+
+/* Task item */
+.task {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.task.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Footer stats */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
